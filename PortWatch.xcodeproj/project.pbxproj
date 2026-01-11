@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		113E366DC790E207DD179E51 /* PortScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8FD1355E6C1165CF3B7745 /* PortScanner.swift */; };
+		A9B80B867C3FE9F6E039F995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E5E99040908782545B5E35 /* AppDelegate.swift */; };
+		B45B1E8C08F7399339EF229F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F040B6E4DF2B67A86DC58838 /* MenuView.swift */; };
+		BD058C9FFD47704955239B1C /* AppPortInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207AF6FE6BEE3D5628594E9 /* AppPortInfo.swift */; };
+		D9EC6E991DF818EFDEB9F21C /* PortWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00516833BEE91545A5FD2ACE /* PortWatchApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00516833BEE91545A5FD2ACE /* PortWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortWatchApp.swift; sourceTree = "<group>"; };
+		1C8FD1355E6C1165CF3B7745 /* PortScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortScanner.swift; sourceTree = "<group>"; };
+		2F32D75C2AE02768BF35F6C5 /* PortWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PortWatch.entitlements; sourceTree = "<group>"; };
+		3207AF6FE6BEE3D5628594E9 /* AppPortInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPortInfo.swift; sourceTree = "<group>"; };
+		D76409309E8E6951C105C8A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E9E5E99040908782545B5E35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F040B6E4DF2B67A86DC58838 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		FC97C7D48325FF03C26766E3 /* PortWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		124DBF6154181CF02CBDBF28 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3207AF6FE6BEE3D5628594E9 /* AppPortInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		340A678BD0C7631683C1CE99 /* PortWatch */ = {
+			isa = PBXGroup;
+			children = (
+				E9E5E99040908782545B5E35 /* AppDelegate.swift */,
+				D76409309E8E6951C105C8A3 /* Info.plist */,
+				2F32D75C2AE02768BF35F6C5 /* PortWatch.entitlements */,
+				00516833BEE91545A5FD2ACE /* PortWatchApp.swift */,
+				124DBF6154181CF02CBDBF28 /* Models */,
+				B791D884E3E6041477BFE939 /* Services */,
+				C78BB0AD9319EEF77BF3150A /* Views */,
+			);
+			path = PortWatch;
+			sourceTree = "<group>";
+		};
+		5B1B4947F0D2687C8A246BFB = {
+			isa = PBXGroup;
+			children = (
+				340A678BD0C7631683C1CE99 /* PortWatch */,
+				66077D13536A7E74A501777E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66077D13536A7E74A501777E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC97C7D48325FF03C26766E3 /* PortWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B791D884E3E6041477BFE939 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1C8FD1355E6C1165CF3B7745 /* PortScanner.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C78BB0AD9319EEF77BF3150A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F040B6E4DF2B67A86DC58838 /* MenuView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E048D9C26819838F46CD93E /* PortWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9714642CEA9EF58A774ADF /* Build configuration list for PBXNativeTarget "PortWatch" */;
+			buildPhases = (
+				7020297BD383DDA29E68921C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PortWatch;
+			packageProductDependencies = (
+			);
+			productName = PortWatch;
+			productReference = FC97C7D48325FF03C26766E3 /* PortWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11913C3E3476A5F02BA52A8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					1E048D9C26819838F46CD93E = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CDFA687DE26603CB06B5566B /* Build configuration list for PBXProject "PortWatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5B1B4947F0D2687C8A246BFB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E048D9C26819838F46CD93E /* PortWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7020297BD383DDA29E68921C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B80B867C3FE9F6E039F995 /* AppDelegate.swift in Sources */,
+				BD058C9FFD47704955239B1C /* AppPortInfo.swift in Sources */,
+				B45B1E8C08F7399339EF229F /* MenuView.swift in Sources */,
+				113E366DC790E207DD179E51 /* PortScanner.swift in Sources */,
+				D9EC6E991DF818EFDEB9F21C /* PortWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A29F4FB929BB5B574E5CAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		3772A24C4278AD0E9508723F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PortWatch/PortWatch.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = PortWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yash.PortWatch;
+				PRODUCT_NAME = PortWatch;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		448715599A942FBDA68037A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		F744639E879DDEDE6FC716A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PortWatch/PortWatch.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = PortWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yash.PortWatch;
+				PRODUCT_NAME = PortWatch;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE9714642CEA9EF58A774ADF /* Build configuration list for PBXNativeTarget "PortWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F744639E879DDEDE6FC716A2 /* Debug */,
+				3772A24C4278AD0E9508723F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CDFA687DE26603CB06B5566B /* Build configuration list for PBXProject "PortWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A29F4FB929BB5B574E5CAA8 /* Debug */,
+				448715599A942FBDA68037A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11913C3E3476A5F02BA52A8B /* Project object */;
+}

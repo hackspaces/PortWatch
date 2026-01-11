@@ -1,0 +1,30 @@
+name: PortWatch
+options:
+  bundleIdPrefix: com.yash
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "16.0"
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+
+targets:
+  PortWatch:
+    type: application
+    platform: macOS
+    sources:
+      - PortWatch
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.yash.PortWatch
+        INFOPLIST_FILE: PortWatch/Info.plist
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_IDENTITY: "-"
+        DEVELOPMENT_TEAM: ""
+        ENABLE_HARDENED_RUNTIME: NO
+        PRODUCT_NAME: PortWatch
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        COMBINE_HIDPI_IMAGES: YES
+        CODE_SIGN_ENTITLEMENTS: PortWatch/PortWatch.entitlements
