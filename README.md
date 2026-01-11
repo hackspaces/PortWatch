@@ -2,6 +2,8 @@
 
 A macOS menu bar app that displays applications listening on TCP ports.
 
+![Screenshot](screenshot.png)
+
 ## Features
 
 - Shows count of apps with open ports in the menu bar
